@@ -14,3 +14,9 @@ if 5>4:
     print("error")
 else:
     print("5<4")
+names={"Maurice",'Fabiola',21}
+name1,name2,age=names
+print(name1)
+print(name2)
+print(age)
+    
