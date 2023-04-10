@@ -1,7 +1,7 @@
 #python variables are cool
 from tokenize import Double
 
-#Intro
+#intro
 x="Hello Word"
 y=str(4)
 z=float(4)
@@ -9,6 +9,7 @@ m=int(4)
 print(y)
 print(z)
 print(m)
+print(x+" is concatenated with "+y)
 if 5>4:
     print(x)
     print("error")
@@ -22,6 +23,7 @@ print(age)
 #data types
 a=10 #int 
 b=10.6 #float
+print(a*b)
 c= " a number " #str
 d= 1j #complex
 e= ["one","two",3] #list
@@ -60,4 +62,27 @@ print(exampleString.strip) # removes white spaces on beginning and end
 print(exampleString.split(" ")) # splits the sentence with delimiter " "
 print(exampleString.replace("All","Every")) # replaces All with Every
 formatString= " My name is {} and I am {} years old. I like {}"
-print(formatString.format("Maurice",19,"to play basketball"))    
+print(formatString.format("Maurice",19,"to play basketball"))
+
+#collections 
+
+  # list 
+thisList=['one',2,'three','one',False]
+print(len(thisList))
+print(thisList[-1]) #last item 
+if "one" in thisList:
+    print("one")
+thisList.insert(2,"temp")
+print(thisList)
+thisList.append(True)
+thisList.extend(e)
+print(thisList) #adds any iterable
+thisList.remove("one")
+thisList.pop(1)
+del thisList[2]
+[print(elt) for elt in thisList] # another way 
+ #newlist=[elt2 for elt2 in thisList if "e" in elt2] creates a new list from the old list wjere every elemnt has "e" in it 
+# syntax =>  newlist = [expression for item in iterable if condition == True]
+testList=input("test list")
+print(testList)
+#next is functions
