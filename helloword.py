@@ -85,4 +85,14 @@ del thisList[2]
 # syntax =>  newlist = [expression for item in iterable if condition == True]
 testList=input("test list")
 print(testList)
-#next is functions
+#tuples 
+tuple1=("one",) # add the comma for python to consider is a tuple not a string 
+tuple2=("one",2,"Three",4.0,False) # to change elements of a turple turn it into a list change it same adding items amd removing
+listtuple=list(tuple1)
+listtuple[0]=("rimwe")
+tuple1=tuple(listtuple) 
+tuple2+=tuple1 # adding a tuple to another is possible 
+(var1,var2,*list)=tuple2 # unpacking a tuple, the first two goes into vars and the remaining makes list in the last with *
+tuple2=tuple1*2 #doubling the tuple 
+print(tuple2)
+
