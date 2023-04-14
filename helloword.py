@@ -96,3 +96,22 @@ tuple2+=tuple1 # adding a tuple to another is possible
 tuple2=tuple1*2 #doubling the tuple 
 print(tuple2)
 
+# Sets Unchengeable, unordered, Dont allow duplicates 
+thisSet={"money", "Family", "career", "Health", "happiness"}
+print(thisSet)
+print(thisSet)
+# we cant change elements of set but we can add
+thisSet.add(True)
+thisSet.update(set("More")) # you can an any iterable using update 
+print(thisSet)
+thisSet.remove("career")
+print(thisSet)
+print(thisSet.pop()) # removes a random item
+set2={"more","money","more","Problems"}
+set3= thisSet.union(set2)# returns a new set with alll elements included both update and union excludes duplicates 
+thisSet.intersection_update(set2) # keeps items that are same in the other set only 
+print(thisSet) 
+set3.symmetric_difference_update(set2) # keeps all but the duplicates
+
+# Dictionaries 
+
