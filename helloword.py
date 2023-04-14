@@ -115,3 +115,20 @@ set3.symmetric_difference_update(set2) # keeps all but the duplicates
 
 # Dictionaries 
 
+thisDictionary= {
+    "Name": "Maurice Irakoze Jyaheza",
+    "Date of Birth": " 10 feb 2001",
+    "Major": " CS "
+}
+print(thisDictionary["Name"])
+print(thisDictionary.get("Major"))
+listOfKeys=thisDictionary.keys()# gets keys only 
+thisDictionary["other"]= "likes food"
+listofValues=thisDictionary.values()#gets values 
+print(thisDictionary.items()) # returns all the items as turples in a list 
+if "Name" in thisDictionary:
+    print("The dictionanary has a name")
+thisDictionary.update({"Name": "Mo"})
+print(thisDictionary.get("Name"))
+thisDictionary.pop("other") # or del thisDictionary("other")
+
