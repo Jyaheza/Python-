@@ -131,4 +131,5 @@ if "Name" in thisDictionary:
 thisDictionary.update({"Name": "Mo"})
 print(thisDictionary.get("Name"))
 thisDictionary.pop("other") # or del thisDictionary("other")
+#functions
 
