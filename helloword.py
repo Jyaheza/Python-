@@ -132,4 +132,4 @@ thisDictionary.update({"Name": "Mo"})
 print(thisDictionary.get("Name"))
 thisDictionary.pop("other") # or del thisDictionary("other")
 #functions finished all of it but lost the code 
-
+#stuck with classes but am working on it I promise
