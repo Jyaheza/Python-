@@ -20,6 +20,7 @@ class mySecondClass(myFirstClass):
         print("My Name is ",self.name," and my Age is ",self.age," and my address is ",self.address," And I like ",self.hobby)
 obj2=mySecondClass("Maurice Irakoze",19,"2501 E Memoria Rd","Basketball")
 obj2.moreInfo()
+#tobe continued
 
 
 
